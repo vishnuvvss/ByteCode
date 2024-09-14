@@ -1,10 +1,12 @@
 package loops1;
-
-public class Second {
+import java.util.Scanner;
+public class palindrome_number {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num=5454,temp=num,rem=0,sum=0;
+		Scanner sc=new Scanner(System.in);
+		int num=sc.nextInt();
+		int temp=num,rem=0,sum=0;
 		while(num>0) {
 			rem=num%10; 
 			sum=sum*10+rem;//  
