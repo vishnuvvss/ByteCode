@@ -1,13 +1,13 @@
 package loops1;
-
+import java.util.Scanner;
 public class Seventh {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		int num=31;
+		Scanner sc=new Scanner(System.in);
+		int num=sc.nextInt();
 		int count=0;
-		int i=2;
+		int i=sc.nextInt();// i value as 2 i.e prime number starts from 2
 		while(i<num)
 		{
 			if(num%i==0) {
